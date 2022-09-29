@@ -131,7 +131,7 @@ img {
   display: flex;
 }
 
-.contacts-nav .item.item:not(:last-child) {
+.contacts-nav .item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -153,6 +153,8 @@ img {
 .hero {
   background-color: var(--footer-bgc);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -333,6 +335,10 @@ img {
   font-style: normal;
 }
 
+.addres .item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .addres-link,
 .addres-item {
   text-decoration: none;
@@ -362,7 +368,7 @@ img {
   justify-content: center;
   margin-bottom: 50px;
 }
-.filter-list .item.item:not(:last-child) {
+.filter-list .item:not(:last-child) {
   margin-right: 8px;
 }
 
